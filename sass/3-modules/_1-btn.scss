@@ -1,0 +1,11 @@
+.btn {
+    display: inline-block;
+    background-color: $primary-color;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 30px;
+
+    &:hover {
+        background-color: $secondary-color;
+    }
+}

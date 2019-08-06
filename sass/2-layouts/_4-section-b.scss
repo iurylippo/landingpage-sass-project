@@ -1,0 +1,32 @@
+.section-b {
+    position: relative;
+    background: url('../img/section-b.jpg') no-repeat bottom center/cover;
+    height: 600px;
+
+    & .section-b-inner {
+        color: #fff;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        margin: auto;
+        max-width: 860px;
+        padding: 5rem 0;
+
+        & h3 {
+            font-size: 2rem;
+        }
+
+        & h2 {
+            margin-top: 1rem;
+            font-size: 5rem;
+        }
+
+        & p {
+            margin-top: 1rem;
+            font-size: 1.5rem;
+        }
+    }
+}

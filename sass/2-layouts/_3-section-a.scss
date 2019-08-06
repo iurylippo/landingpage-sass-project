@@ -1,0 +1,23 @@
+.section-a {
+    margin: 2rem 0;
+    height: 100vh;
+    display: grid;
+    
+    & .container {
+        display: grid;
+        @include grid-columns(2);
+        grid-gap: 3rem;
+        align-items: center;
+        justify-content: center;
+    }
+
+    & h1 {
+        font-size: 4rem;
+        color: $primary-color;
+    }
+
+    & p {
+        margin: 1rem 0;
+    }
+}
+
